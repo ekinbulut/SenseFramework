@@ -4,7 +4,7 @@ This framework is built to help development of n-tier applications by giving ser
 You may built your apps by implementing of certain libraries.
 Each library provides components for easiy implementations of repository pattern, unit of work, mapping, logging, aop etc.
 
-Build status
+[![Build status](https://ci.appveyor.com/api/projects/status/qu02yhle7n24bq3s/branch/master?svg=true)](https://ci.appveyor.com/project/ekinbulut/senseframework-3o670/branch/master)
 
 ### Modules
 #### 1. Core
