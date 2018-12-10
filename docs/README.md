@@ -1,10 +1,10 @@
 # SenseFramework
 
+[![Build status](https://ci.appveyor.com/api/projects/status/qu02yhle7n24bq3s/branch/master?svg=true)](https://ci.appveyor.com/project/ekinbulut/senseframework-3o670/branch/master)
+
 This framework is built to help development of n-tier applications by giving service oriented architectural platform.
 You may built your apps by implementing of certain libraries.
 Each library provides components for easiy implementations of repository pattern, unit of work, mapping, logging, aop etc.
-
-[![Build status](https://ci.appveyor.com/api/projects/status/qu02yhle7n24bq3s/branch/master?svg=true)](https://ci.appveyor.com/project/ekinbulut/senseframework-3o670/branch/master)
 
 ### Modules
 #### 1. Core
@@ -19,7 +19,7 @@ Each library provides components for easiy implementations of repository pattern
 
 #### 3. Bussiness
 
-* ~~**_SenseFramework.Applications_** : Currently in development.~~
+* **_SenseFramework.Applications_** : This module provides interface to integrate your bussiness logic with senseframework.
 * **_SenseFramework.Services_** : This library is for registering WCF services in your service layer.
 * **_SenseFramework_** : This library is startup point of the application. This library must be called in the client runtime application. (Console or Windows Service)
 
